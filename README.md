@@ -31,9 +31,7 @@ In this exercice a modified version of the [Bellman Equation](https://en.wikiped
 
 Bellman Equation:
 
-$
-Q(S_t, A_t) = (1 - \alpha)Q(S_t, A_t) + \alpha(R_t + \lambda * max_{\alpha}Q(S_{t+1}, \alpha))
-$
+<img src="https://render.githubusercontent.com/render/math?math=Q(S_t, A_t) = (1 - \alpha)Q(S_t, A_t) + \alpha(R_t + \lambda * max_{\alpha}Q(S_{t+1}, \alpha))">
 
 This Q-function will be approximated by a deep neural network with memory replay. This neural network will be responsible for evaluating states, i.e. determine the expected reward of each action at a given state.
 
