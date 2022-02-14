@@ -43,7 +43,3 @@ Our neural network is composed of 2 fully connected layers and an output layer. 
 
 After less than 50 episodes over 200, the agent managed to achieve the winning threshold of 200 and remain at this level.
 ![](./img/output.png)
-
-----
-
-Tags: Reinforcement Learning, Deep Neural Network, OpenAI-Gym, PyTorch, python, AI, Deep Learning, Bellman Equation, Neural Networks, Deep Q-Learning
